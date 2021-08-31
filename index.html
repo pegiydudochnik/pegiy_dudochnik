@@ -8,14 +8,17 @@
 </head>
 <style>
 	body {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0.6)), url(img/bg.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      
+		background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0.9)), url(img/bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		font-family: sans-serif;
+		position:fixed;
+        top:0;
+        left:0; 
+        /* Preserve aspet ratio */
+        min-width:100%;
+        min-height:100%;
 	}
 	p {
 		color: red;
